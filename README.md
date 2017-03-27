@@ -1,3 +1,2 @@
 # Personal-Work
-Assignments and projects
-Backups
+Assignment and project backups
