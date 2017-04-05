@@ -16,6 +16,10 @@ import java.util.Scanner;
  */
 public class Sales { 
     
+    /**
+     * The main method that gets called by the JVM.
+     * @param args unused.
+     */
     public static void main(String[] args) { 
         int salesPeople = 0;
         int sum; 
