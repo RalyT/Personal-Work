@@ -9,6 +9,11 @@ package Lab09;
 // *************************************************************** 
 import java.util.Scanner; 
 
+/**
+ * A program that demonstrates the use of Array objects.
+ * @author Raly Tan
+ * @version 1.0
+ */
 public class Sales { 
     
     public static void main(String[] args) { 
@@ -24,13 +29,16 @@ public class Sales {
         
         System.out.println("How many salespeople are there: ");
         salesPeople =scan.nextInt();
+        //Creating a new array object with the amount of sales people the user entered
         int[] sales = new int[salesPeople];
         
+        //Creating a for loop that lets the user give a value for every sales person
         for (int i = 0; i < sales.length; i++)     { 
             System.out.print("Enter sales for salesperson " + (i + 1) + ": "); 
             sales[i] = scan.nextInt();     
             lowestSale = sales[i];
             } 
+        //Prints out all the sales people in the array with their sales value
         System.out.println("\n  Salesperson  Sales"); 
         System.out.println(" ------------------ "); 
         sum = 0; 
@@ -55,10 +63,11 @@ public class Sales {
                             + " had the highest sale of " + highestSale);
         System.out.println("Salesperson " + (worstSalesPerson + 1)
                             + " had the lowest sale of " + worstSale);
+        //Prompting the user for a benchmark sales amount
         System.out.println("Enter a benchmark amount: ");
         benchmark = scan.nextInt();
         int madeIt = 0;
-        
+        //Printing out the sales people who made more than the benchmark amount
         System.out.println("Salespeople that sold more than the benchmark amount:");
         System.out.println("Salesperson  Sales"); 
         System.out.println(" ------------------ "); 
