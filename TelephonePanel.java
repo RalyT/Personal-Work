@@ -9,6 +9,13 @@ package Lab09;
 import java.awt.*; 
 import javax.swing.*; 
 
+/**
+ * A program that demonstrates border layout.
+ * By using a new JPanel with border layout, we can add
+ * buttons and arrange a number pad.
+ * @author Raly Tan
+ * @version 1.0
+ */
 public class TelephonePanel extends JPanel { 
     
     //private JTextArea keyPad;
@@ -27,6 +34,7 @@ public class TelephonePanel extends JPanel {
         //add buttons representing keys to key panel 
         JPanel keyPad = new JPanel(layout);
         
+        //Instantiating each button on the keypad
         JButton button1 = new JButton("1");
         JButton button2 = new JButton("2");
         JButton button3 = new JButton("3");
@@ -39,7 +47,7 @@ public class TelephonePanel extends JPanel {
         JButton button10 = new JButton("*");
         JButton button11 = new JButton("0");
         JButton button12 = new JButton("#");
-        
+        //Add every button to the keyPad JPanel with Grid layout.
         keyPad.add(button1);
         keyPad.add(button2);
         keyPad.add(button3);
