@@ -1,5 +1,3 @@
-package Lab08;
-
 /**
  * A  class that provides the methods for an object
  * that moves on a two-dimensional place.

@@ -1,4 +1,3 @@
-package Lab09;
 import java.util.Scanner;
 
 /**

@@ -1,5 +1,3 @@
-package Lab08;
-
 /**
  * A program that uses the RandomWalk class to create two 
  * objects and test whether they have collided.
